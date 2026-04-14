@@ -12,6 +12,13 @@
 <p align="justify">In sorting scenario, the ASORT tracker achieved a MOTA of 97.8% and an IDF1 of 98.9%; in continuous sorting tests on the entire machine, the system’s overall grading accuracy reached 92.5%.</p>
 
 <p align="justify">The results indicate that the proposed method integrates visual perception, target association and rejection control, providing technical support for apple sorting in small and medium-sized orchards.</p>
+<video width="100%" controls>
+  <source src="Video1.mp4" type="video/mp4">
+</video>
+<video width="100%" controls>
+  <source src="video2.mp4" type="video/mp4">
+</video>
+
 
 # Dataset
 To find the dataset used in this study, please make sure all files are downloaded from HERE (For review) (The project is still ongoing, the complete data set remains under protection. Therefore, at this stage, we released part of the data set.) Dataset: https://pan.baidu.com/s/1m_5nDWVRcNsSF2R0qcdfOQ Code:uxbs
