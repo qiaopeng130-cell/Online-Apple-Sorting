@@ -15,15 +15,6 @@
 
 <p align="justify">The full source code will be released upon acceptance of the paper.</p>
 
-<br>
-
-### Demo Video
-<video width="100%" controls>
-  <source src="demo1.mp4" type="video/mp4">
-  Your browser does not support video playback.
-</video>
-
-
 # Dataset
 To find the dataset used in this study, please make sure all files are downloaded from HERE (For review) (The project is still ongoing, the complete data set remains under protection. Therefore, at this stage, we released part of the data set.) Dataset: https://pan.baidu.com/s/1m_5nDWVRcNsSF2R0qcdfOQ Code:uxbs
 
