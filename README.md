@@ -1,4 +1,6 @@
 # Apple-defect-sorting
+![示意图](./1.jpg)
+
 # Overview
 This repository presents a compact in-field intelligent apple sorting system designed for small and medium-sized orchards, based on a single-camera, three-lane architecture.
 The work focuses on three tightly components:
