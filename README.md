@@ -14,7 +14,7 @@ To address long-range defect detection and false rejections caused by single-fra
 # Main Contributions
 * A custom apple defect dataset for in-field sorting scenarios
 * MOD-DETR, built on RT-DETR with:
-    * FasterNet lightweight backbone
+    * FasterNet
     * OSENet
     * AMSF
     * DBRC3
