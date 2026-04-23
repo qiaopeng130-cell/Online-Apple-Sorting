@@ -51,7 +51,7 @@ This repository is currently being prepared for full public release.
 
 # Dataset
 A partial version of the dataset is currently available for review:
-* Dataset link: [Baidu Netdisk](https://pan.baidu.com/s/1m_5nDWVRcNsSF2R0qcdfOQ)
+* Dataset link: https://pan.baidu.com/s/1m_5nDWVRcNsSF2R0qcdfOQ
 * Extraction code: uxbs
 
 # Notes
@@ -60,8 +60,6 @@ A partial version of the dataset is currently available for review:
 * The currently shared dataset is only a partial subset for review purposes.
 
 # Planned Release Contents
-## Planned Release Contents
-
 The full public release will include the following modules:
 ```text
 Apple-defect-sorting/
@@ -92,7 +90,7 @@ The reproducibility package will include:
 
 # Media Coverage
 This project has also been covered by industry media:
-[Douyin video](https://v.douyin.com/6EQBNfSZf1Q/)
+https://v.douyin.com/6EQBNfSZf1Q/
 
 # Contact
 For questions regarding the dataset or code release, please contact the authors through the paper submission system or the repository issues page after public release.
