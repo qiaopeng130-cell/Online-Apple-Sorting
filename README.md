@@ -36,11 +36,6 @@ In the sorting scenario:
 # Repository Status
 This repository is currently being prepared for full public release.
 
-# Currently available
-* Project description
-* Partial dataset access for review
-* Experimental summary
-
 # To be released
 * Full source code
 * Training scripts
