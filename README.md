@@ -75,8 +75,8 @@ Apple-defect-sorting/
 |   `-- sort_demo.py
 |-- Checkpoints/
 |-- UI/
-|-- Ultralytics/
 |-- Docs/
+|-- Ultralytics/
 `-- README.md
 ```
 
