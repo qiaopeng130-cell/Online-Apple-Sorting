@@ -1,24 +1,98 @@
 # Apple-defect-sorting
-<p align="justify">To meet the need for miniaturized, high-precision automated sorting equipment in small and medium sized orchards, this study developed a compact in-field intelligent apple sorting system with a "single-camera, three-lane" architecture.</p>
+# Overview
+This repository presents a compact in-field intelligent apple sorting system designed for small and medium-sized orchards, based on a single-camera, three-lane architecture.
+The work focuses on three tightly coupled components:
+    1.defect detection
+    2.target association / tracking
+    3.trajectory-level sorting decision-making
+To address long-range defect detection and false rejections caused by single-frame decisions, we propose:
 
-<p align="justify">To address the difficulty of detecting apple surface defects under long-range imaging and the false rejections caused by single-frame detection, the work focused on three components: defect detection, target association, and trajectory-level decision-making.</p>
+* MOD-DETR for apple defect detection
+* ASORT for lightweight target tracking in constrained sorting scenarios
+* a trajectory-level multi-frame defect confirmation strategy for reducing instantaneous false positives
 
-<p align="justify">An apple defect dataset was constructed for this sorting scenario, and a defect detection model, MOD-DETR, was proposed by integrating a FasterNet lightweight backbone, an optimization-stage enhancement network (OSENet) with an adaptive multi-scale fusion module (AMSF), and a dynamic balanced reparameterization structure (DBRC3) into RT-DETR, thereby improving the representation of defects under long-range imaging.</p>
+# Main Contributions
+* A custom apple defect dataset for in-field sorting scenarios
+* MOD-DETR, built on RT-DETR with:
+    * FasterNet lightweight backbone
+    * OSENet
+    * AMSF
+    * DBRC3
+* ASORT, a lightweight tracker for visually similar fruits with constrained motion
+* A trajectory-level decision strategy for more stable rejection control
+* A compact apple sorting system validated in continuous sorting experiments
 
-<p align="justify">Furthermore, to address the high visual similarity among fruits and kinematically constrained motion trajectories in sorting scenarios, a lightweight tracking method ASORT was proposed. Combined with a trajectory-level multi-frame defect confirmation strategy, it effectively reduces instantaneous false-positives.</p>
+# Experimental Results
+On the custom apple defect dataset:
+* mAP@50: 86.7%
+* Improvement over baseline: +1.5 percentage points
+* GFLOPs reduction: 29.4
+* Inference speed improvement: +23.8 FPS
+In the sorting scenario:
+* MOTA: 97.8%
+* IDF1: 98.9%
+* Overall grading accuracy in continuous machine tests: 92.5%
 
-<p align="justify">Experiments on the custom apple defect dataset showed that MOD-DETR achieved a mAP@50 of 86.7%, 1.5 percentage points higher than that of the baseline model, while reducing GFLOPs by 29.4 and increasing inference speed by 23.8 fps.</p>
+# Repository Status
+This repository is currently being prepared for full public release.
 
-<p align="justify">In sorting scenario, the ASORT tracker achieved a MOTA of 97.8% and an IDF of 98.9%; in continuous sorting tests on the entire machine, the system’s overall grading accuracy reached 92.5%.</p>
+# Currently available
+* Project description
+* Partial dataset access for review
+* Experimental summary
 
-<p align="justify">The results indicate that the proposed method integrates visual perception, target association and rejection control, providing technical support for apple sorting in small and medium-sized orchards.</p>
-
-<p align="justify">The full source code will be released upon acceptance of the paper.</p>
+# To be released
+* Full source code
+* Training scripts
+* Inference scripts
+* Tracking and decision modules
+* Model checkpoints
+* Reproducibility instructions
+* If this repository is being used during peer review, please note that some contents are temporarily withheld to comply with the review and publication process.
 
 # Dataset
-To find the dataset used in this study, please make sure all files are downloaded from HERE (For review) (The project is still ongoing, the complete data set remains under protection. Therefore, at this stage, we released part of the data set.) Dataset: https://pan.baidu.com/s/1m_5nDWVRcNsSF2R0qcdfOQ Code:uxbs
+A partial version of the dataset is currently available for review:
+* Dataset link: [Baidu Netdisk](https://pan.baidu.com/s/1m_5nDWVRcNsSF2R0qcdfOQ)
+* Extraction code: uxbs
+
+# Notes
+* The project is still ongoing.
+* The full dataset is not yet publicly released.
+* The currently shared dataset is only a partial subset for review purposes.
+
+# Planned Release Contents
+The full public release will include the following modules:
+Apple-defect-sorting/
+├─ datasets/
+├─ configs/
+├─ models/
+│  ├─ mod_detr/
+│  └─ asort/
+├─ tools/
+│  ├─ train.py
+│  ├─ test.py
+│  ├─ track.py
+│  └─ sort_demo.py
+├─ checkpoints/
+├─ docs/
+└─ README.md
+
+# Reproducibility
+The reproducibility package will include:
+* environment configuration
+* dataset structure and annotation format
+* training commands
+* evaluation commands
+* tracking commands
+* system-level sorting demo instructions
+* pretrained checkpoints
 
 # Media Coverage
-This project has been reported and promoted by industry media:
-https://v.douyin.com/6EQBNfSZf1Q/
+This project has also been covered by industry media:
+[Douyin video](https://v.douyin.com/6EQBNfSZf1Q/)
+
+# Contact
+For questions regarding the dataset or code release, please contact the authors through the paper submission system or the repository issues page after public release.
+
+
 
