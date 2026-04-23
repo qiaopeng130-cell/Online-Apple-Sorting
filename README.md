@@ -19,6 +19,6 @@
 To find the dataset used in this study, please make sure all files are downloaded from HERE (For review) (The project is still ongoing, the complete data set remains under protection. Therefore, at this stage, we released part of the data set.) Dataset: https://pan.baidu.com/s/1m_5nDWVRcNsSF2R0qcdfOQ Code:uxbs
 
 # Media Coverage
-This project has been featured and reported by multiple industry media outlets:
+This project has been reported and promoted by industry media:
 https://v.douyin.com/6EQBNfSZf1Q/
 
