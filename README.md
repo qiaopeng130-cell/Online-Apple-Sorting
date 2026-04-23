@@ -7,8 +7,8 @@ The work focuses on three tightly components:
 * defect detection
 ![示意图](./3.png)
 * target association / tracking
-![示意图](./2.png)
 * trajectory-level sorting decision-making
+![示意图](./2.png)
 
 To address long-range defect detection and false rejections caused by single-frame decisions, This research propose:
 * MOD-DETR for apple defect detection
@@ -92,6 +92,9 @@ The reproducibility package will include:
 # Media Coverage
 This project has also been covered by industry media:
 https://v.douyin.com/6EQBNfSZf1Q/
+Equipment video:
+[![Demo Video]](./video2.mp4)
+[![Demo Video]](./Video1.mp4)
 
 # Contact
 For questions regarding the dataset or code release, please contact the authors through the paper submission system or the repository issues page after public release.
