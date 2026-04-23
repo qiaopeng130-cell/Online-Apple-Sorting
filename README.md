@@ -5,6 +5,7 @@ The work focuses on three tightly components:
 * defect detection
 * target association / tracking
 * trajectory-level sorting decision-making
+
 To address long-range defect detection and false rejections caused by single-frame decisions, This research propose:
 * MOD-DETR for apple defect detection
 * ASORT for lightweight target tracking in constrained sorting scenarios
