@@ -62,7 +62,9 @@ A partial version of the dataset is currently available for review:
 
 # Planned Release Contents
 The full public release will include the following modules:
+
 Apple-defect-sorting/
+
 ├─ datasets/
 
 ├─ configs/
